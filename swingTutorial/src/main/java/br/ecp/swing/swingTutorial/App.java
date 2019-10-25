@@ -1,3 +1,5 @@
+package br.ecp.swing.swingTutorial;
+
 import java.awt.BorderLayout;
 import java.awt.FlowLayout;
 import java.awt.GridLayout;

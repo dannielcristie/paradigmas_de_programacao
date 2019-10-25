@@ -1,0 +1,11 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - TestePessoa",
+            "request": "launch",
+            "mainClass": "br.ufma.ecp.paradigmas.tutorial1.TestePessoa",
+            "projectName": "paradigmas"
+        }
+    ]
+}
