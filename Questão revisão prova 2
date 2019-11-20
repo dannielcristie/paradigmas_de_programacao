@@ -54,8 +54,10 @@
     O que é programação reflexiva?
 
     No contexto de metaprogramação, o que seria introspeção.
+        Em programação orientada a objetos, os metadados são organizados em objetos, chamados de metaobjetos. A capacidade de acessar esses metaobjetos em tempo de execução é chamada de introspeção.
 
     No contexto de metaprogramação, o que seria anotação.
+        Uma anotação é uma anotação anexada a um elemento do programa (um método, uma classe etc.) que expressa algumas informações adicionais sobre o elemento. Uma anotação expressa alguma intenção do programador em relação ao elemento ".."
 
     No Java, quais são as principais classes que dão suporte a introspeção.
 
