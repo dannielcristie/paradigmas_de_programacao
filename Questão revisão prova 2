@@ -1,0 +1,65 @@
+
+    -Exemplifique e explique os os 4 tipos polimorfismo tratados em sala de aula.
+
+    -A diferença entre polimorfismo adhoc e universal;
+
+    -A diferença entre sobrecarga e sobrescrita, exemplifique.
+
+    -A diferença entre cast e coerção, exemplifique.
+&
+
+    -O que é uma Exceção no contexto de programação com Java ?
+        O termo exceção significa “condição excepcional”, é uma ocorrência que altera o fluxo normal do programa. Exceção é um objeto que representa os detalhes de uma falha de programa. Uma exceção é lançada para indicar que ocorreu uma falha. Vários fatores podem levar a uma exceção
+
+    -O que significa a Manipulação ou Tratamento de Exceções ?
+        
+    -Cite alguns exemplos de Classes de Exceções do Java ?
+
+    -Quais os tipos e diferenças de Exceções do Java ?
+        
+
+    Erros devido a condições do ambiente de execução
+    estes fogem do controle do programador mas podem ser tratados em tempo de execução. Por exemplo, arquivo não encontrado, rede indisponível, URL mal formada, etc.É implementado pela classe Exception.
+
+    Erros que devem ser corrigidos pelo programador
+    estes são erros de lógicas e devem ser corrigidos pelo programador. Por exemplo, limites do vetor ultrapassados, divisão por zero, chamar um método em objeto não instanciado. É implementado pela classe RumTimeException.
+
+    Erros graves onde não precisamos manipulá-los
+    estes representam situações incomuns que não são causados por erros no programa. Por exemplo, falta de memória, erro interno da máquina virtual.É implementado pela classe Error.
+
+
+    Explique o bloco de Tratamento de Exceções (try...catch...finally...).
+    try {
+         // código que inclui comandos/invocações de métodos
+        // que podem gerar uma situação de exceção.
+    } catch (XException ex) {
+       // bloco de tratamento associado à condição de
+       // exceção XException ou a qualquer uma de suas
+       // subclasses, identificada aqui pelo objeto
+       // com referência ex
+    } catch (YException ey) {
+       // bloco de tratamento para a situação de exceção
+       // YException ou a qualquer uma de suas subclasses
+    } finally {
+       // bloco de código que sempre será executado após
+       // o bloco try, independentemente de sua conclusão
+       // ter ocorrido normalmente ou ter sido interrompida
+    }
+
+    Explique a forma de lançamento de uma Exceção (throw new...).
+
+    Explique o funcionamento da Propagação de Exceções (throws).
+
+&
+    O que é programação reflexiva?
+
+    No contexto de metaprogramação, o que seria introspeção.
+
+    No contexto de metaprogramação, o que seria anotação.
+
+    No Java, quais são as principais classes que dão suporte a introspeção.
+
+    Por que dizemos que o java dá suporte apenas de introspeção, e não a reflexão completa.
+
+    Dê exemplos de frameworks que fazem uso de metaprogramação.
+
